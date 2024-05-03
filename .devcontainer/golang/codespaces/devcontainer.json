@@ -1,0 +1,18 @@
+{
+    "name": "Go Development",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.go"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "go.gopath": "/go"
+            }
+        }
+    },
+    "postCreateCommand": "curl -L https://github.com/shouples/vscode-web-extension-test/raw/main/dev-web-extension-0.0.1.vsix -o extension.vsix && code --install-extension extension.vsix && rm extension.vsix"
+}
