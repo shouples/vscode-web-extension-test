@@ -3,13 +3,15 @@
   "displayName": "dev-web-extension",
   "description": "",
   "version": "0.0.1",
+  "publisher": "dshoup",
+  "repository": "https://github.com/shouples/vscode-web-extension-test",
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "browser": "./dist/web/extension.js",
   "contributes": {
     "commands": [
