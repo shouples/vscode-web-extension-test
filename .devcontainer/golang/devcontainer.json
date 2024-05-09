@@ -14,5 +14,5 @@
             }
         }
     },
-    "postCreateCommand": "curl -L https://github.com/shouples/vscode-web-extension-test/raw/main/dev-web-extension-web-0.0.1.vsix -o extension.vsix && code --install-extension extension.vsix && rm extension.vsix"
+    "postCreateCommand": "curl -L https://github.com/shouples/vscode-web-extension-test/raw/main/dev-web-extension-web-0.0.1.vsix -o extension.vsix"
 }
