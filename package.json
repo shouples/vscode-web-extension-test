@@ -15,9 +15,28 @@
     "commands": [
       {
         "command": "dev-web-extension.helloWorld",
-        "title": "Hello World"
+        "title": "Hello World",
+        "category": "Dev Web Extension"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "dev-web-extension",
+          "title": "Dev Web Extension",
+          "icon": "resources/icon.png"
+        }
+      ]
+    },
+    "views": {
+      "dev-web-extension": [
+        {
+          "id": "dev-web-extension",
+          "name": "Dev Web Extension",
+          "icon": "resources/icon.png"
+        }
+      ]
+    }
   },
   "scripts": {
     "test": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --extensionTestsPath=dist/web/test/suite/index.js",
