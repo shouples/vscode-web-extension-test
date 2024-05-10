@@ -13,5 +13,6 @@
                 "go.gopath": "/go"
             }
         }
-    }
+    },
+    "postCreateCommand": "code --install-extension ./dev-web-extension-web-0.0.1.vsix"
 }
