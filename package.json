@@ -2,7 +2,7 @@
   "name": "dev-web-extension",
   "displayName": "dev-web-extension",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "preview": true,
   "publisher": "shouples-dev",
   "repository": "https://github.com/shouples/vscode-web-extension-test",
@@ -12,7 +12,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "browser": "./dist/web/extension.js",
   "contributes": {
     "commands": [
