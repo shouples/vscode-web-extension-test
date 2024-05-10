@@ -3,7 +3,7 @@
   "displayName": "dev-web-extension",
   "description": "",
   "version": "0.0.1",
-  "publisher": "dshoup",
+  "publisher": "shouples-dev",
   "repository": "https://github.com/shouples/vscode-web-extension-test",
   "engines": {
     "vscode": "^1.89.0"
